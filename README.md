@@ -33,7 +33,7 @@ class Singleton(metaclass=SingletonMeta):
         pass
 ```
 ### Como testar
-```
+```python
 from singleton import Singleton
 
 if __name__ == "__main__":
@@ -59,7 +59,7 @@ O Adapter converte a interface de uma classe em outra interface que um cliente e
 
 ### Diagrama UML
 ### Código
-```
+```python
 class Target:
     def request(self):
         return "Target: O comportamento padrão do target."
@@ -76,7 +76,7 @@ class Adapter(Target):
         return f"Adapter: (TRANSLATE) {self.adaptee.specific_request()[::-1]}"
 ```
 ### Como testar
-```
+```python
 from adapter import Target, Adaptee, Adapter
 
 if __name__ == "__main__":
@@ -101,7 +101,7 @@ O Visitor separa o algoritmo dos objetos sobre os quais opera.
 
 ### Diagrama UML
 ### Código
-```
+```python
 class Visitor:
     def visit_concrete_element_a(self, element):
         pass
@@ -142,7 +142,7 @@ class ConcreteElementB(Element):
         return "ConcreteElementB"
 ```
 ### Como Testar
-```
+```python
 from visitor import ConcreteElementA, ConcreteElementB, ConcreteVisitor1, ConcreteVisitor2
 
 if __name__ == "__main__":
