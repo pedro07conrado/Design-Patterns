@@ -18,7 +18,7 @@ O Singleton impede que mais de uma instância de uma classe seja criada, fornece
 ![Singleton UML](url_da_imagem_do_diagrama_uml)
 
 ### Código
-```c
+```c#
 class SingletonMeta(type):
     _instances = {}
 
