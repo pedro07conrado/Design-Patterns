@@ -58,6 +58,8 @@ Uma classe que usa outra classe incompatível, cujo comportamento é necessário
 O Adapter converte a interface de uma classe em outra interface que um cliente espera.
 
 ### Diagrama UML
+![Diagrama_UML](https://github.com/user-attachments/assets/9aadce17-3270-483d-abbb-b4822473dd8e)
+
 ### Código
 ```python
 class Target:
