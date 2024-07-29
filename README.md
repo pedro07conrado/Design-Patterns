@@ -102,6 +102,8 @@ Permitir que novas operações sejam definidas em uma estrutura de objetos sem m
 O Visitor separa o algoritmo dos objetos sobre os quais opera.
 
 ### Diagrama UML
+![Diagrama_UML](https://github.com/user-attachments/assets/10e34993-1b46-4eb4-b827-327ee71a9479)
+
 ### Código
 ```python
 class Visitor:
