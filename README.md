@@ -15,7 +15,7 @@ Garantir que uma classe tenha apenas uma instância e fornecer um ponto global d
 O Singleton impede que mais de uma instância de uma classe seja criada, fornecendo um único ponto de acesso global à instância.
 
 ### Diagrama UML
-![Singleton UML](url_da_imagem_do_diagrama_uml)
+![Singleton UML](https://github.com/user-attachments/assets/59a8afb7-8544-4297-8882-4373fde05272)
 
 ### Código
 ```python
